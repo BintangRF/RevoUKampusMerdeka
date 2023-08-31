@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div class="container">
+        <div class="logo_container">
+            <h2 id="logo">.FORM</h2>
+        </div>
+      <div class="form_container">
+        <form action="" method="POST">
+          <h1>Silahkan Isi Formulir</h1>
+          <input type="text" id="nama" placeholder="Nama" name="nama" required /><br /><hr><br>
+
+          <input id="alamat" name="alamat" placeholder="Alamat" rows="4" required></input
+          ><br /><hr><br />
+
+          <input
+            type="date"
+            id="tanggal_lahir"
+            name="tanggal_lahir"
+            required /><br /><hr><br />
+
+          <select id="jurusan" name="jurusan" required>
+            <option value="Administrasi Bisnis">Administrasi Bisnis</option>
+            <option value="Manajemen Informatika">
+              Manajemen Informatika
+            </option></select
+          ><br /><hr><br />
+
+          <input type="radio" id="man" name="gender" value="Man" required />
+          <label for="man">Man</label>
+          <input type="radio" id="woman" name="gender" value="Woman" required />
+          <label for="woman">Woman</label><br /><br />
+
+          <input type="submit" id="button" value="SUBMIT" /><br>
+          <a href="tabel.html" target="_blank">Klik Untuk Melihat Tabel ----> </a>
+        </form>
+      </div>
+    </div>
+    <img class="boy" src="assets/3dboy.png" alt="gambar.1">
+  </body>
+</html>
